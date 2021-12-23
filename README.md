@@ -59,6 +59,10 @@ LSTM과 GRU를 이용한 분석의 경우, 토큰화를 위한 형태소 분석�
 
 <img src="https://user-images.githubusercontent.com/66895650/147272869-2ca72c59-4b46-4a1b-a8a0-4e6587fd4bf9.png" width="65%" height="65%" align="center" />
 
+<img src="https://user-images.githubusercontent.com/66895650/147275079-87b62010-4408-483c-ae12-43176bcd4f47.png" width="45%" height="45%" />
+
+
+
 ## 3. 수행 결과
 ### 모델 별 테스트 셋 정확도
 |Model|Test Accuracy|
@@ -82,7 +86,7 @@ BERT의 ‘bert-base-multilingual-cased’모델을 캐글 데이터로 파인 �
 아래의 사진은 임의로 수집한 네이버 뉴스 문장을 입력했더니 출력된 값이다. 
 
 
-![image](https://user-images.githubusercontent.com/66895650/147274315-e6d67d45-30c6-45b5-928d-585b259bce23.png)
+<img src="https://user-images.githubusercontent.com/66895650/147274315-e6d67d45-30c6-45b5-928d-585b259bce23.png" />
 
 
 
