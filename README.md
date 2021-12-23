@@ -34,6 +34,7 @@ LSTM과 GRU를 이용한 분석의 경우, 토큰화를 위한 형태소 분석�
 ### 1) LSTM, GRU를 이용한 감성 분석. 
 과적합을 막기 위해 검증 데이터 손실이 3회 증가하면 학습을 조기 종료했으며,또한 keras의 ModelCheckpoint를 사용해 검증 데이터의 정확도가 이전보다 좋아질 경우에만 모델을 저장하게 했다. 에포크를 지정한 후 훈련 과정에서 검증 데이터의 정확도가 가장 높은 모델로 test 데이터를 예측해봤다. 
 
+<img src="https://user-images.githubusercontent.com/66895650/147275982-e40dff29-cd30-4100-ac12-d5a32fafcb2a.png" width="50%" height="50%" />
 
 <img src="https://user-images.githubusercontent.com/66895650/147273024-ee7b9e85-114a-4b46-8f55-00491426e261.png" width="50%" height="50%" />
 
@@ -58,7 +59,6 @@ LSTM과 GRU를 이용한 분석의 경우, 토큰화를 위한 형태소 분석�
 
 
 <img src="https://user-images.githubusercontent.com/66895650/147272869-2ca72c59-4b46-4a1b-a8a0-4e6587fd4bf9.png" width="65%" height="65%" align="center" />
-
 <img src="https://user-images.githubusercontent.com/66895650/147275079-87b62010-4408-483c-ae12-43176bcd4f47.png" width="45%" height="45%" />
 
 
