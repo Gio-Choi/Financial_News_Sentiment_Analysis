@@ -25,7 +25,7 @@ Kaggle(캐글)에서 제공하는 sentiment-analyis-for-financial-news‘ 데이
 LSTM과 GRU를 이용한 분석의 경우, 토큰화를 위한 형태소 분석기는 KoNLPy의 Mecab을 사용했다. Mecab의 경우 성능이 우수하며, 다른 분석기에 비해 분석에 소요되는 시간이 상대적으로 적어 이를 형태소 분석기로 선택했다. 형태소 분석기로 토큰화한 토큰들은 기계가 숫자로 처리할 수 있게 정수 인코딩을 진행했다. 이와 달리, BERT와 KoBERT를 이용한 분석은 BERT와 KoBERT 패키지의 tokenizer로 토큰화를 진행했다.
 
 
-<img src="https://user-images.githubusercontent.com/66895650/147273804-b7e1a537-a725-4a67-89b8-6157f6108478.png" width="30%" height="30%" />
+<img src="https://user-images.githubusercontent.com/66895650/147273804-b7e1a537-a725-4a67-89b8-6157f6108478.png" width="25%" height="25%" />
 
 ### 패딩 : 
 모델에 인풋하기 이전에 패딩을 통해 서로 다른 길이의 샘플들의 길이를 동일하게 맞춰줬다. 패딩은 데이터 셋의 99.9%를 포함하는 최대 문장 길이를 정하고, 데이터 셋의 각 샘플들은 문장의 길이가 최대 문장 길이보다 작다면 빈 공간들은 0으로 채워주는 과정을 거쳤다.
